@@ -1,0 +1,12 @@
+{
+  "name": "cbt-intern-example",
+  "version": "0.0.1",
+  "description": "Demonstrate CBT tunnel usage",
+  "scripts": {
+    "test": "./node_modules/.bin/intern-runner config=tests/intern"
+  },
+  "dependencies": {
+    "intern": "3.3.x",
+    "digdug": "theintern/digdug"
+  }
+}
