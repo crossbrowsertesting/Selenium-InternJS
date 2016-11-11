@@ -11,11 +11,11 @@ npm test
 You'll also need to make some changes to the intern.js configuration file. The file is located in 'tests' directory. Once you have that open, you should see:
 
 ```
-		tunnelOptions: {
-                // These can also be specified using the environment variables CBT_USERNAME and CBT_APIKEY
-                username: 'you@yourdomain.com',
-                apiKey: 'yourauthkey'
-        },
+tunnelOptions: {
+        // These can also be specified using the environment variables CBT_USERNAME and CBT_APIKEY
+        username: 'you@yourdomain.com',
+        apiKey: 'yourauthkey'
+},
 ```
 
 You'll want to ensure your username is set to the email address associated with your account, and that the apiKey is set to your apikey. As the comments mention, you can alternatively use environment variables to set the username and apikey. This will also be the file in which you'll set the OS/Browser/Device configuration. For now, backup two directories, and run your test:
