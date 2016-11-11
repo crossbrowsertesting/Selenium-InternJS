@@ -8,7 +8,7 @@ define([
 	assert
 ) {
 	registerSuite({
-		name: 'hello',
+		name: 'ToDoTest',
 
 		'check contents': function () {
 			// Functional tests should return a command chain based on the remote object

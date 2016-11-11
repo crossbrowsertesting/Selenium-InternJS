@@ -71,18 +71,18 @@ Tunnel started
 ‣ Created session internet explorer on any platform (45c12f4a-99d1-4e4a-abed-f338cc1940ed)
 ‣ Created session chrome on any platform (022466e8-b8c8-4770-b144-8b1022c129b6)
 Test Complete
-✓ chrome on any platform - hello - check contents (5.065s)
+✓ chrome on any platform - ToDoTest - check contents (5.065s)
 No unit test coverage for chrome on any platform
 chrome on any platform: 0/1 tests failed
 
 ‣ Created session firefox on any platform (183fcd66-e5a9-4bd5-aff3-bbcf923310d5)
 Test Complete
-✓ internet explorer on any platform - hello - check contents (12.917s)
+✓ internet explorer on any platform - ToDoTest - check contents (12.917s)
 No unit test coverage for internet explorer on any platform
 internet explorer on any platform: 0/1 tests failed
 
 Test Complete
-✓ firefox on any platform - hello - check contents (6.446s)
+✓ firefox on any platform - ToDoTest - check contents (6.446s)
 No unit test coverage for firefox on any platform
 firefox on any platform: 0/1 tests failed
 
