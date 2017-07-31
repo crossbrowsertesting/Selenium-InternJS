@@ -5,7 +5,7 @@ define({
 			'build': '1.0',
 			'browserName': 'chrome',
 			'os_api_name': 'Win10',
-			'browser_api_name': 'Chrome52',
+			'browser_api_name': 'chrome-latest',			// request the latest version of chrome
 			'screen_resolution': '1024x768',
 			'record_video': 'true',
 			'record_network': 'true'
