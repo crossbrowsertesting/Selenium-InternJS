@@ -35,8 +35,8 @@ environments: [
 			'build': '1.0',
 			'browserName': 'chrome',
 			'os_api_name': 'Win10',
-			'browser_api_name': 'Chrome52',
-			'screen_resolution': '1024x768',
+			'browser_api_name': 'chrome-latest',
+			'screen_resolution': '1366x768',
 			'record_video': 'true',
 			'record_network': 'true'
 		},
@@ -45,8 +45,8 @@ environments: [
 			'build': '1.0',
 			'browserName': 'firefox',
 			'os_api_name': 'Win10',
-			'browser_api_name': 'FF46',
-			'screen_resolution': '1024x768',
+			'browser_api_name': 'ff-latest',
+			'screen_resolution': '1366x768',
 			'record_video': 'true',
 			'record_network': 'true'
 		},
@@ -55,8 +55,8 @@ environments: [
 			'build': '1.0',
 			'browserName': 'internet explorer',
 			'os_api_name': 'Win10',
-			'browser_api_name': 'Edge20',
-			'screen_resolution': '1024x768',
+			'browser_api_name': 'Edge15',
+			'screen_resolution': '1366x768',
 			'record_video': 'true',
 			'record_network': 'true'
 		}
