@@ -3,10 +3,9 @@ define({
 		{
 			'name': 'Intern Example',
 			'build': '1.0',
-			'browserName': 'chrome',
-			'os_api_name': 'Win10',
-			'browser_api_name': 'chrome-latest',			// request the latest version of chrome
-			'screen_resolution': '1024x768',
+			'browserName': 'chrome', 		// requests latest verison of chrome by default
+			'platform': 'Windows 10',		// to specify a version, add 'version': 'desired version'
+			'screen_resolution': '1366x768',
 			'record_video': 'true',
 			'record_network': 'true'
 		}
