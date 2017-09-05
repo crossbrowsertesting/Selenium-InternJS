@@ -34,8 +34,7 @@ environments: [
 			'name': 'Intern Example',
 			'build': '1.0',
 			'browserName': 'chrome',
-			'os_api_name': 'Win10',
-			'browser_api_name': 'chrome-latest',
+			'platform': 'Windows 10',
 			'screen_resolution': '1366x768',
 			'record_video': 'true',
 			'record_network': 'true'
@@ -44,8 +43,7 @@ environments: [
 			'name': 'Intern Example',
 			'build': '1.0',
 			'browserName': 'firefox',
-			'os_api_name': 'Win10',
-			'browser_api_name': 'ff-latest',
+			'platform': 'Windows 10',
 			'screen_resolution': '1366x768',
 			'record_video': 'true',
 			'record_network': 'true'
@@ -53,9 +51,9 @@ environments: [
 		{
 			'name': 'Intern Example',
 			'build': '1.0',
-			'browserName': 'internet explorer',
-			'os_api_name': 'Win10',
-			'browser_api_name': 'Edge15',
+			'browserName': 'MicrosoftEdge',
+			'platform': 'Windows 10',
+			'version': '15',
 			'screen_resolution': '1366x768',
 			'record_video': 'true',
 			'record_network': 'true'
