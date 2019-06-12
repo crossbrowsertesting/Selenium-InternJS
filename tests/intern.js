@@ -7,7 +7,7 @@ define({
 			'platform': 'Windows 10',		// to specify a version, add 'version': 'desired version'
 			'screen_resolution': '1366x768',
 			'record_video': 'true',
-			'record_network': 'true'
+			'record_network': 'false'
 		}
 	],
 
