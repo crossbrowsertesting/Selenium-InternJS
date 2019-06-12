@@ -24,7 +24,7 @@ You'll want to ensure your username is set to the email address associated with 
 npm test
 ```
 
-If you have our app open, you should see your test start. Because of our integration with digdug, the test will also start a tunnel for you. The existing test in the 'functional' directory tests a basic AngularJS ToDoApp. All tests in this directory will run. Unlike other test frameworks that require you to create a request to set the score, Intern does this automatically once the test finishes. 
+If you have our app open, you should see your test start. Because of our integration with digdug, the test will also start a tunnel for you. The existing test in the 'functional' directory tests a basic AngularJS ToDoApp. All tests in this directory will run. Unlike other test frameworks that require you to create a request to set the score, Intern does this automatically once the test finishes.
 
 Want to run tests in parallel? That's easy too! Open up the intern.js configuration file. Adding OS/Device configurations is as easy as adding capabilities objects to the 'environments' array. For instance, this environments array would run a test to Chrome, Edge, and Firefox on Windows 10:
 
@@ -37,7 +37,7 @@ environments: [
 			'platform': 'Windows 10',
 			'screen_resolution': '1366x768',
 			'record_video': 'true',
-			'record_network': 'true'
+			'record_network': 'false'
 		},
 		{
 			'name': 'Intern Example',
@@ -46,7 +46,7 @@ environments: [
 			'platform': 'Windows 10',
 			'screen_resolution': '1366x768',
 			'record_video': 'true',
-			'record_network': 'true'
+			'record_network': 'false'
 		},
 		{
 			'name': 'Intern Example',
@@ -56,7 +56,7 @@ environments: [
 			'version': '15',
 			'screen_resolution': '1366x768',
 			'record_video': 'true',
-			'record_network': 'true'
+			'record_network': 'false'
 		}
 	]
 ```
